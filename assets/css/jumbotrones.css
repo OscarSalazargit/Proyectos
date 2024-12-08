@@ -54,3 +54,20 @@
 .jumbotron__imagen:hover:nth-child(odd){
     background-color: black;
 }
+
+.jumbo__github{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    line-height: 4.5rem;
+    box-shadow: 5px 5px 7px white;
+    transition: all 800ms ease-in-out;
+}
+.jumbo__github:hover{
+    box-shadow: none;
+    border: 3px solid whitesmoke;
+}
