@@ -1,0 +1,15 @@
+/* Para pantallas menores de 450px */
+@media screen and (max-width: 450px) {
+    /* Estilos aquí */
+  }
+  
+  /* Para pantallas entre 450px y 700px */
+  @media screen and (min-width: 450px) and (max-width: 700px) {
+    /* Estilos aquí */
+  }
+  
+  /* Para pantallas de 1000px en adelante */
+  @media screen and (min-width: 1000px) {
+    /* Estilos aquí */
+  }
+  

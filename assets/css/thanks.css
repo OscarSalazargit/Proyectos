@@ -1,0 +1,13 @@
+.thanks__title{
+    font-size: 3rem;
+}
+.thanks__menu{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.thanks__item{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}

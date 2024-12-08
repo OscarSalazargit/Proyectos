@@ -1,0 +1,11 @@
+@import url(reset.css);
+@import url(var.css);
+@import url(style.css);
+@import url(thanks.css);
+@import url(fonts.css);
+/* backgroun */
+@import url(background.css);
+/* Menu */
+@import url(header.css);
+/* jumbotrones */
+@import url(jumbotrones.css);

@@ -1,0 +1,49 @@
+/* Fuentes de puntos */
+
+@font-face {
+    font-family: doto-black;
+    src: url(../fonts/google/Doto-Black.ttf);
+}
+
+@font-face {
+    font-family: doto-bold;
+    src: url(../fonts/google/Doto-Bold.ttf);
+}
+
+@font-face {
+    font-family: doto;
+    src: url(../fonts/google/Doto-Regular.ttf);
+}
+
+/*Reloj cuenta a tras*/
+@font-face {
+    font-family: reloj;
+    src: url(../fonts/google/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf);
+}
+
+/*Redondita textos*/
+
+@font-face {
+    font-family: man;
+    src: url(../fonts/google/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: man-bold;
+    src: url(../fonts/google/Manrope-Bold.ttf);
+}
+@font-face {
+    font-family: man-light;
+    src: url(../fonts/google/Manrope-Light.ttf);
+}
+
+/* AWESOME */
+@import url(../fonts/awesome/css/all.min.css);
+@import url(../fonts/awesome/css/brands.min.css);
+@import url(../fonts/awesome/css/fontawesome.min.css);
+@import url(../fonts/awesome/css/regular.min.css);
+@import url(../fonts/awesome/css/solid.min.css);
+@import url(../fonts/awesome/css/svg-with-js.min.css);
+@import url(../fonts/awesome/css/v4-font-face.min.css);
+@import url(../fonts/awesome/css/v4-shims.min.css);
+@import url(../fonts/awesome/css/v5-font-face.min.css);

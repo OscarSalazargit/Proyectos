@@ -1,0 +1,56 @@
+.jumbotrones{
+    
+    background-color: var(--color-fondo-blanco);
+    opacity: .8;
+}
+.jumbotrones__jumbotron{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50rem;
+    /* border: 1rem solid var(--color-texto-blanco); */
+}
+.jumbotron__description{
+    /* position: absolute;
+    top: 0;
+    right: 20%; */
+    width: 500px;
+    height: 200px;
+    margin: 5rem;
+    text-align: center;
+    border: 5px dotted var(--color-fondo-blanco);
+    background-color: var(--color-fondo-negro);
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 100;
+    color: var(--color-fondo-blanco);
+    box-shadow: 0px 0px  10px 15px black;
+    transition: all 300ms ease-in-out;
+}
+.jumbotron__description:hover{
+    box-shadow: 0px 0px  10px 15px var(--color-fondo-blanco);
+    border: 2px dotted var(--color-fondo-negro);
+}
+.jumbotron__imagen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -10;
+}
+.jumbotron__img{
+    display: inline-block;
+    border-radius: 30px;
+    object-fit: cover;
+    
+    transition: all 600ms ease-in-out;
+}
+.jumbotron__imagen:hover:nth-child(odd){
+    background-color: black;
+}

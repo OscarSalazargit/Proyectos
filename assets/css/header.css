@@ -1,0 +1,113 @@
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color: whitesmoke;
+    background-color: rgb(70, 70, 70);
+    z-index: 10;
+    padding: 5px 10%;
+}
+.header__menu{
+    margin: 0 3rem;
+}
+.menu__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.menu__item{
+    list-style: none;
+    width: 6rem;
+    /* border: 5px 15px; */
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+    text-align: center;
+}
+
+.menu__item:hover{
+    font-family: man-bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    letter-spacing: 8px;
+}
+
+.header__title{
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 450px) {
+    .header{
+        flex-direction: column;
+    }
+    .menu__container{
+        margin: 10px 0px;
+    }
+    .menu__item{
+        letter-spacing: 2px;
+        width: auto;
+    }
+    .menu__item:hover{
+        letter-spacing: 2px;
+        font-family: man;
+        color: black;
+    }
+    .header__title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 450px) and (max-width: 700px) {
+    .header{
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .header__title{
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .menu__item{
+        letter-spacing: 2px;
+        width: auto;
+    }
+    .menu__item:hover{
+        letter-spacing: 2px;
+        font-family: man;
+        color: black;
+    }
+
+  }
+  @media screen and (min-width:700px) and (max-width: 1075px) {
+    .header{
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .header__title{
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .menu__item{
+        letter-spacing: 2px;
+        width: auto;
+    }
+    .menu__item:hover{
+        letter-spacing: 2px;
+        font-family: man;
+        color: black;
+    }
+
+  }
+  
